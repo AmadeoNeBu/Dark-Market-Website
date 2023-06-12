@@ -1,0 +1,48 @@
+.sidebar-1 {
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  flex: 1fr 1fr 1fr 1fr;
+  flex-direction: column;
+  padding-top: 25px;
+  padding-bottom: 5px;
+
+}
+
+
+
+
+.sidebar-2 {
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  top: 50px;
+  bottom: 0;
+  right: 0;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  flex: 1fr 1fr 1fr 1fr;
+  flex-direction: column;
+  padding-top: 25px;
+  padding-bottom: 5px;
+
+}
+
+
+#advertisement-gif1,
+#advertisement-gif2,
+#advertisement-gif3,
+#advertisement-gif4,
+#advertisement-gif5,
+#advertisement-gif6,
+#advertisement-gif7,
+#advertisement-gif8 {
+  width: 97%;
+}

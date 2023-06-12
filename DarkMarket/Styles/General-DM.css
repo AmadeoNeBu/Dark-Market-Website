@@ -1,0 +1,70 @@
+
+body {
+  font-family: Roboto Mono;
+  margin: 0;
+  background-color: rgb(39, 39, 39);
+  height: 1000px;
+  color: rgb(193, 193, 193)
+}
+
+p {
+  margin: 0;
+}
+
+
+/* BOTTOM AD */
+
+.bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin: 70px 130px 0 130px; 
+
+}
+
+#bottom-gif {
+  width: 100%;
+}
+
+/* ANNOYING POP UP */
+
+#pop-up-container {
+
+  position: fixed;
+  right: 290px;
+  bottom: 140px;
+  background-color: black;
+  z-index: 300;
+}
+
+
+.pop-up-text {
+  text-align: right;
+  margin: 3px 10px 3px 0;
+  font-weight: bold;
+  font-size: 17px;
+  align-items: center;
+}
+
+
+.pop-up-frame {
+  display: grid;
+  background-color: black;
+  padding: 0 3px 3px 3px;
+}
+
+.popup-close {
+  background-color: black;
+  color: grey;
+  font-weight: bold;
+  border: none;
+}
+
+.popup-close:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: rgb(236, 236, 236);
+}
+
+
